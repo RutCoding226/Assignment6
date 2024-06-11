@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Weather Dashboard</h1>
+    </header>
+    <div class="weather-app">
+        <form id="search-form">
+          <h2>Search City</h2>
+            <input type="text" id="search-input" placeholder="Search for a City">
+            <button type="submit">Search</button>
+        </form>
+        <div id="search-history">
+            <div id="coordinates">
+            </div>
+        </div>
+        <div id="current-weather">
+            <h2>Current Weather</h2>
+        </div>
+        <div id="forecast">
+            <h2>5-Day Forecast</h2>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

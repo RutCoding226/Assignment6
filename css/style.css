@@ -1,0 +1,34 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.weather-app {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+#search-form {
+    margin-bottom: 20px;
+}
+
+#search-history, #current-weather, #forecast {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#search-history p, #current-weather p, #forecast p {
+    color: #666;
+}
